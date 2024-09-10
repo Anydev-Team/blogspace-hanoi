@@ -4,7 +4,7 @@
     "keywords": ["architecture", "blogspace", "hanoi", "project"]
   },
   "title": "Architecture of \"Blogspace Hanoi\" project",
-  "image": "https://raw.githubusercontent.com/lgthevinh/blogspace/main/documents/images/blogspace-banner.png",
+  "image": "https://raw.githubusercontent.com/Anydev-Team/blogspace-hanoi/main/blogs/1/images/blogspace-hanoi.png",
   "description": "This is a blog explaining the architecture this website. In this posts, we talk about how this webiste was hosted, the file architecture and many thing more...",
   "author": "lgthvinh - Anydev Team",
   "created_at": "10/09/2019",

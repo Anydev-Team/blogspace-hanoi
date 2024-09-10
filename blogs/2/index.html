@@ -7,22 +7,17 @@
   <title>Architecture of Blogspace Hanoi</title>
   <meta name="description" content="Blogspace Hanoi is a blog website that provides information about Hanoi, Vietnam.">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
-  <link rel="apple-touch-icon" sizes="180x180" href="assets/favicons/apple-touch-icon.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="assets/favicons/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="assets/favicons/favicon-16x16.png">
-  <link rel="manifest" href="/site.webmanifest">
+  
 </head>
 
 <body>
   <nav class="navbar navbar-expand-lg" style="background-color: #e3f2fd;">
     <div class="container">
       <a class="navbar-brand fw-semibold" href="#">
-        <img src="https://github.com/Anydev-Team/blogspace-hanoi/blob/main/assets/img/logo.png?raw=true" alt="logo"
-          width="30" height="24">
+        <img src="https://github.com/Anydev-Team/blogspace-hanoi/blob/main/assets/img/logo.png?raw=true" alt="logo" width="30" height="24">
         blogspace
       </a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarNav">
@@ -34,8 +29,7 @@
             <a class="nav-link" href="https://github.com/Anydev-Team/blogspace-hanoi">About</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link"
-              href="https://github.com/Anydev-Team/blogspace-hanoi/blob/main/blogs/1/content.md">Contribute</a>
+            <a class="nav-link" href="https://github.com/Anydev-Team/blogspace-hanoi/blob/main/blogs/1/content.md">Contribute</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#">Contact</a>
@@ -51,11 +45,32 @@
 
   <script type="text/javascript" src="https://unpkg.com/showdown/dist/showdown.min.js"></script>
   <script>
+    const b64EncodeUnicode = (str) => {
+      // first we use encodeURIComponent to get percent-encoded Unicode,
+      // then we convert the percent encodings into raw bytes which
+      // can be fed into btoa.
+      return btoa(encodeURIComponent(str).replace(/%([0-9A-F]{2})/g,
+        function toSolidBytes(match, p1) {
+          return String.fromCharCode('0x' + p1);
+        }));
+    }
+
+    const b64DecodeUnicode = (str) => {
+      // Going backwards: from bytestream, to percent-encoding, to original string.
+      return decodeURIComponent(atob(str).split('').map(function (c) {
+        return '%' + ('00' + c.charCodeAt(0).toString(16)).slice(-2);
+      }).join(''));
+    }
+
     (async () => {
-      const response = await fetch('content.md'); // Fetch the content of the markdown file
+      const response = await fetch('https://api.github.com/repos/Anydev-Team/blogspace-hanoi/contents/blogs/2/content.md');
+      const data = await response.json();
+      const content = b64DecodeUnicode(data.content);
+      console.log(content);
+
       const converter = new showdown.Converter();
-      const text = await response.text();
-      const html = converter.makeHtml(text);
+      const html = converter.makeHtml(content);
+      console.log(html);
       document.getElementById('article-section').innerHTML = html;
     })();
   </script>

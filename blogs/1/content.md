@@ -12,22 +12,22 @@ The file structure of Blogspace Hanoi is as follows:
 
 ```
 blogspace-hanoi/
-├── blogs/
-│   ├── 1/
-│   │   ├── content.md
-|   |   |── description.json
-|   |   |── index.html
-│   │   └── images/
-│   │       └── image1.jpg
-│   ├── 2/
-│   │   ├── content.md
-|   |   |── description.json
-|   |   |── index.html
-│   │   └── images/
-│   │       └── image2.jpg
-│   └── ...
-|── assets/
-|── index.html
+|-- blogs/
+│   |-- 1/
+│   │   ├-- content.md
+|   |   |-- description.json
+|   |   |-- index.html
+│   │   |-- images/
+│   │       |-- image1.jpg
+│   |-- 2/
+│   │   ├-- content.md
+|   |   |-- description.json
+|   |   |-- index.html
+│   │   |-- images/
+│   │       |-- image2.jpg
+│   |-- ...
+|-- assets/
+|-- index.html
 
 ```
 

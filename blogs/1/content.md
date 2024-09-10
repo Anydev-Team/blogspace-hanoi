@@ -50,6 +50,8 @@ In order to maintain consistency and quality across all blog posts, we have defi
 - All images used in blog posts must be stored in the `images/` directory within the blog post directory. This makes it easy to manage and reference images in the content.
 - Blog post must be reviewed and approved by a moderator before being published. This ensures that the content is accurate, relevant, and appropriate for the platform.
 
+NOTE: The `index.html` file is generated automatically from the `content.md` file using a static site generator. This allows for easy deployment and maintenance of the website without having to manually update HTML files. HOWEVER, the `index.html` file can be manually updated if necessary if you are member of Blogspace Hanoi.
+
 ## Collaboration Rules
 
 As for members in Blogspace Hanoi, we have defined the following rules for collaboration:

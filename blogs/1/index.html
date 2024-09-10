@@ -51,35 +51,12 @@
 
   <script type="text/javascript" src="https://unpkg.com/showdown/dist/showdown.min.js"></script>
   <script>
-    const b64EncodeUnicode = (str) => {
-      return btoa(encodeURIComponent(str).replace(/%([0-9A-F]{2})/g,
-        function toSolidBytes(match, p1) {
-          return String.fromCharCode('0x' + p1);
-        }));
-    }
-    
-    // Decode base64 (convert to string)
-    const b64DecodeUnicode = (str) => {
-      return decodeURIComponent(atob(str).split('').map(function (c) {
-        return '%' + ('00' + c.charCodeAt(0).toString(16)).slice(-2);
-      }).join(''));
-    }
-
     (async () => {
-      try {
-        const response = await fetch('https://api.github.com/repos/Anydev-Team/blogspace-hanoi/contents/blogs/1/content.md');
-        const data = await response.json();
-        console.log(data);
-        const content = b64DecodeUnicode(data.content);
-        console.log(content);
-
-        const converter = new showdown.Converter();
-        const html = converter.makeHtml(content);
-        console.log(html);
-        document.getElementById('article-section').innerHTML = html;
-      } catch (error) {
-        console.error(error);
-      }
+      const response = await fetch('content.md'); // Fetch the content of the markdown file
+      const converter = new showdown.Converter();
+      const text = await response.text();
+      const html = converter.makeHtml(text);
+      document.getElementById('article-section').innerHTML = html;
     })();
   </script>
 

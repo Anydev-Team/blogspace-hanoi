@@ -1,6 +1,4 @@
-# Blogspace
-
-![Blogspace Banner](/images/blogspace-banner.png)
+![Blogspace Banner](./images/blogspace-banner.png)
 
 Blogspace is a platform for sharing blog posts. It allows users to create and publish blog posts after getting verified, allowing users to share information about themselves and their interests.
 

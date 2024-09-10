@@ -1,4 +1,9 @@
 {
+  "meta": {
+    "description": "This is a blog explaining the architecture this website. In this posts, we talk about how this webiste was hosted, the file architecture and many thing more...",
+    "keywords": ["architecture", "blogspace", "hanoi", "project"]
+  },
   "title": "Architecture of \"Blogspace Hanoi\" project",
+  "author": "Anydev Team",
   "created_at": "10 September 2019"
 }

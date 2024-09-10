@@ -73,12 +73,10 @@
           try {
             const blogResponse = await fetch(`https://api.github.com/repos/Anydev-Team/blogspace-hanoi/contents/blogs/${blog.name}/description.json`);
             const jsonResponse = await blogResponse.json();
-            console.log(jsonResponse);
             if (jsonResponse.size === 0) {
               return;
             }
             const blogDescription = JSON.parse(b64DecodeUnicode(jsonResponse.content));
-            console.log(blogDescription);
 
             if (blogDescription.publish) {
               const articleRow = document.getElementById('article-row');

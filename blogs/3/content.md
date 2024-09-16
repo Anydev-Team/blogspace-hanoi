@@ -21,7 +21,7 @@ For bike riders, there are some key points to consider:
 - **Navigation**: Google Maps is the best tool to navigate around the city. It's better to navigate the destination and route before you go. Internet connection or offine maps are crucial when you move with motorbike.
 - **Traffic jams**: Traffic jams are very common in Hanoi, especially during rush hours. It's better to avoid moving around the city during these hours. Use Googles Maps to check the traffic status before you go. The longer you live in Hanoi, the more you will know the traffic status in each area. Rainy days are also the worst time to move around the city as the traffic is very heavy.
 
-![VinBus](./images/hanoi-bus.jpg)
+![VinBus](./images/vinbus.jpg)
 
 For public transportation, some considerations are:
 - **Routes**: There are many bus routes in Hanoi, so it's better to check the route and schedule before you go. Some apps like Google Maps or BusMap Hanoi are very very helpful to find routes and schedules.

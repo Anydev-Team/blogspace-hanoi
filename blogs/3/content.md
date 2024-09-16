@@ -1,6 +1,6 @@
 # How Internet would help to adapt in Hanoi
 
-![Hanoi](/images/hanoi.jpg)
+![Hanoi](./images/hanoi.jpg)
 
 Hanoi is an interesting city with very complex culture and history. This place is also a head city of universities, so each year witness thougsands of students come to study and live here. Therefore, I want to write this to help freshers have a better experience when they come to Hanoi. In this article, I will only show you how I manage to use Internet to adapt in Hanoi.
 
@@ -14,14 +14,14 @@ In this blog, I will cover the following topics:
 
 Hanoi is enormous and has a lot of traffic. The best best way to move around the city is by motorbike. If you can't ride a motorbike or don't have one. It's better to use public transportation like buses and metros because it's very cheap. At last option, you can use Grab to move around the city, but I don't recommend it because it's quite expensive if you move rappidy and frequently.
 
-![Hanoi Traffic](/images/traffic-in-hanoi.jpg)
+![Hanoi Traffic](./images/traffic-in-hanoi.jpg)
 
 For bike riders, there are some key points to consider:
 - **Traffic rules**: Traffic in Hanoi is very chaotic, so you need to be very careful when riding a bike. Always wear a helmet and follow the traffic rules.
 - **Navigation**: Google Maps is the best tool to navigate around the city. It's better to navigate the destination and route before you go. Internet connection or offine maps are crucial when you move with motorbike.
 - **Traffic jams**: Traffic jams are very common in Hanoi, especially during rush hours. It's better to avoid moving around the city during these hours. Use Googles Maps to check the traffic status before you go. The longer you live in Hanoi, the more you will know the traffic status in each area. Rainy days are also the worst time to move around the city as the traffic is very heavy.
 
-![VinBus](/images/hanoi-bus.jpg)
+![VinBus](./images/hanoi-bus.jpg)
 
 For public transportation, some considerations are:
 - **Routes**: There are many bus routes in Hanoi, so it's better to check the route and schedule before you go. Some apps like Google Maps or BusMap Hanoi are very very helpful to find routes and schedules.
@@ -33,7 +33,7 @@ For Grab or other ride-hailing services, few things to consider:
 - **Price**: Grab is quite expensive in Hanoi, so it's better to use it only when you have no other choice. If you use it frequently, it will cost you a lot of money.
 - **Safety**: Grab is quite safe in Hanoi, but you need to be careful with the driver. Always check the driver's information before you go and share your trip with your friends or family. It's always better to get service through the app, not some random driver on the street because it's could be cheaper and able to track your trip through the app.
 
-![Metro Hanoi](/images/hanoi-metro.jpg)
+![Metro Hanoi](./images/hanoi-metro.jpg)
 
 In conclusion, moving around the city is quite challenging, but if you make use of the Internet, services and apps, it will be much easier and more convenient. Always be careful and do some research before you go.
 

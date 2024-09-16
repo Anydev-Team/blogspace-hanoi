@@ -1,6 +1,6 @@
 # How Internet would help to adapt in Hanoi
 
-![Hanoi](./images/hanoi.jpg)
+![Hanoi](./images/banner-image.jpg)
 
 Hanoi is an interesting city with very complex culture and history. This place is also a head city of universities, so each year witness thougsands of students come to study and live here. Therefore, I want to write this to help freshers have a better experience when they come to Hanoi. In this article, I will only show you how I manage to use Internet to adapt in Hanoi.
 

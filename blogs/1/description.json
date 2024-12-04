@@ -1,8 +1,8 @@
 {
-  "title": "Architecture of \"Blogspace Hanoi\" project",
-  "image": "https://raw.githubusercontent.com/Anydev-Team/blogspace-hanoi/main/blogs/1/images/blogspace-hanoi.png",
+  "title": "Architecture of \"Blogspace Lite\" project",
+  "image": "https://raw.githubusercontent.com/Anydev-Team/blogspace-lite/main/blogs/1/images/blogspace-lite.png",
   "description": "This is a blog explaining the architecture this website. In this posts, we talk about how this webiste was hosted, the file architecture and many thing more...",
-  "tags": ["blogspace-hanoi", "project"],
+  "tags": ["blogspace-lite", "project"],
   "author": "lgthvinh - Anydev Team",
   "created_at": "10/09/2024",
   "publish" : true

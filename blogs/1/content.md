@@ -1,17 +1,17 @@
-# Architecture of Blogspace Hanoi
+# Architecture of Blogspace Lite
 
-In this document, we will discuss the architecture of Blogspace Hanoi, a blog platform for students in Hanoi. The platform is designed to be simple, lightweight, and easy to use, with a focus on content creation and sharing.
+In this document, we will discuss the architecture of Blogspace Lite, a blog platform develop for open-source projects. The platform is designed to be simple, lightweight, and easy to use, with a focus on content creation, documentation and sharing.
 
 ## Overview
 
-Blogspace Hanoi is a static website using git and GitHub Pages for hosting. In order to create an easy to develop and maintain, we do have to define file structure and rules for writing content, furthermore, we also have also define some of collaboration rules for contributors and members.
+Blogspace Lite is a static website using git and GitHub Pages for hosting. In order to create an easy to develop and maintain, we do have to define file structure and rules for writing content, furthermore, we also have also define some of collaboration rules for contributors and members.
 
 ## File Structure
 
-The file structure of Blogspace Hanoi is as follows:
+The file structure of Blogspace Lite is as follows:
 
 ```
-blogspace-hanoi/
+blogspace-lite/
 ├── blogs/
 │   ├── 1/
 │   │   ├── content.md
@@ -50,15 +50,15 @@ In order to maintain consistency and quality across all blog posts, we have defi
 - All images used in blog posts must be stored in the `images/` directory within the blog post directory. This makes it easy to manage and reference images in the content.
 - Blog post must be reviewed and approved by a moderator before being published. This ensures that the content is accurate, relevant, and appropriate for the platform.
 
-NOTE: The `index.html` file is generated automatically from the `content.md` file using a static site generator. This allows for easy deployment and maintenance of the website without having to manually update HTML files. HOWEVER, the `index.html` file can be manually updated if necessary if you are member of Blogspace Hanoi.
+NOTE: The `index.html` file is generated automatically from the `content.md` file using a static site generator. This allows for easy deployment and maintenance of the website without having to manually update HTML files. HOWEVER, the `index.html` file can be manually updated if necessary if you are member of Blogspace Lite.
 
 ## Collaboration Rules
 
-As for members in Blogspace Hanoi, we have defined the following rules for collaboration:
+As for members in Blogspace Lite, we have defined the following rules for collaboration:
 
 - Members should use git and GitHub to contribute to the platform. This allows for easy version control, collaboration, and deployment of the website.
 - Members should follow the file structure and rules for writing content as outlined above. This ensures that the platform remains consistent and easy to maintain.
-- Members should respect the contributions of others and provide constructive feedback when reviewing blog posts. This helps to maintain a positive and supportive community within Blogspace Hanoi.
+- Members should respect the contributions of others and provide constructive feedback when reviewing blog posts. This helps to maintain a positive and supportive community within Blogspace Lite.
 
 Git and GitHub guidelines: (in example of changing button color on homepage) 
 
